@@ -12,7 +12,7 @@ public class Exercicio05 {
 			soma += numeroAtual;
 		} while (numeroAtual != 0);
 		System.out.println("a soma total dos números digitados é " + soma);
-
+teclado.close();
 	}
 
 }
