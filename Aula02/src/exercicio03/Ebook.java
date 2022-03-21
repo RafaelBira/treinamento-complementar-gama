@@ -1,3 +1,4 @@
+package exercicio03;
 
 public class Ebook {
 	private String titulo;

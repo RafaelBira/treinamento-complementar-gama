@@ -1,3 +1,4 @@
+package exercicio02;
 
 public class Relogio {
 	private int hora;

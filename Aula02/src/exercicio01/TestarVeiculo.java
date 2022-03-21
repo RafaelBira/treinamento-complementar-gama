@@ -1,3 +1,4 @@
+package exercicio01;
 
 public class TestarVeiculo {
 public static void main(String[] args) {
