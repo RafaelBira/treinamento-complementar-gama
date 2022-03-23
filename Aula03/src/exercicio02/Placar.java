@@ -23,7 +23,9 @@ public class Placar {
 		this.golsTimeVisitante = golsTimeVisitante;
 	}
 
-	public String mostrarPlacar() {
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
 		return timeMandante + " " + golsTimeMandante + " X " + golsTimeVisitante + " " + timeVisitante;
 	}
 
