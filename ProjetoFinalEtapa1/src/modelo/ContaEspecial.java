@@ -10,7 +10,7 @@ public class ContaEspecial extends Conta {
 
 	@Override
 	public boolean sacar(double valor) {
-		if (super.getSaldo() + this.valorLimite > valor) {
+		if ((super.getSaldo() + this.valorLimite) > valor) {
 			return false;
 		}
 		return super.sacar(valor);
